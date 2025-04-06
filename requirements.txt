@@ -8,3 +8,4 @@ sqlite-utils
 python-dotenv
 pandas
 tqdm
+PyMuPDF
