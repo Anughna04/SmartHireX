@@ -1,4 +1,4 @@
-** SmartHireX **
+## SmartHireX 
 ### **AI-Powered Hiring. Smarter. Faster. Fairer.**
 
 ## 📌 Overview
