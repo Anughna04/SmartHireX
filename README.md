@@ -1,5 +1,5 @@
-# **SmartHireX **
-### ****
+# ** SmartHireX **
+### **AI-Powered Hiring. Smarter. Faster. Fairer.**
 
 ## 📌 Overview
 **SmartHireX is a cutting-edge, AI-driven recruitment solution that simplifies the hiring process by automating resume screening, candidate shortlisting, and interview scheduling. It leverages a multi-agent architecture, LLMs (LLaMA3 via Ollama), and Streamlit for a seamless, end-to-end hiring workflow tailored for modern organizations.
@@ -8,11 +8,11 @@
 ![Demo GIF](demo.gif)
 
 ## 📌 Features
-✅ Multi-Agent System – Individual AI agents for job summarization, resume parsing, candidate scoring, shortlisting, and interview scheduling.
-✅ LLM-Powered Matching – Uses Ollama LLMs and custom embeddings (mxbai-embed-large) for accurate candidate-job matching.
-✅ Streamlit UI – Clean, interactive UI for uploading CVs, job descriptions, and managing the hiring pipeline.
-✅ Auto Interview Scheduler – Automatically drafts and schedules interviews for top candidates.
-✅ SQLite Memory – Persistent and efficient data storage for job and candidate data.
+- ✅ Multi-Agent System – Individual AI agents for job summarization, resume parsing, candidate scoring, shortlisting, and interview scheduling.
+- ✅ LLM-Powered Matching – Uses Ollama LLMs and custom embeddings (mxbai-embed-large) for accurate candidate-job matching.
+- ✅ Streamlit UI – Clean, interactive UI for uploading CVs, job descriptions, and managing the hiring pipeline.
+- ✅ Auto Interview Scheduler – Automatically drafts and schedules interviews for top candidates.
+- ✅ SQLite Memory – Persistent and efficient data storage for job and candidate data.
 
 ## 🚀 Technologies Used
 - Programming Language: Python 
@@ -66,7 +66,7 @@ SmartHireX/
    streamlit run app.py
    ```
 
-##💡 How It Works
+##  How It Works
 - Upload a job description CSV and CV folder.
 
 - JD Summarizer (LLaMA3) extracts key requirements.
