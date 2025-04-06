@@ -55,7 +55,7 @@ from langchain_ollama import OllamaEmbeddings
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-embeddings = OllamaEmbeddings(model="mxbai-embed-large")
+embeddings = OllamaEmbeddings(model="mxbai-embed-large",base_url="http://localhost:11434")
 
 def extract_relevant_sections(text):
     lines = text.split('\n')
