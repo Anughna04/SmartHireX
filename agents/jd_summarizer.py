@@ -17,14 +17,16 @@ def job_summarizer(jd_text: str) -> str:
 import os
 from groq import Groq
 
-os.environ["GROQ_API_KEY"] = "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"
-
-client = Groq(api_key=os.environ["GROQ_API_KEY"])
+# Set your actual Groq API key here
+client = Groq(api_key="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")
 
 def job_summarizer(jd_text):
     prompt = f"Summarize the following job description:\n\n{jd_text}"
     response = client.chat.completions.create(
         model="llama3-8b-8192",
-        messages=[{"role": "user", "content": prompt}],
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
     )
     return response.choices[0].message.content.strip()
+
