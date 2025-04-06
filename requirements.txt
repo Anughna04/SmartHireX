@@ -1,0 +1,10 @@
+langchain
+langchain-ollama
+phi
+scikit-learn
+numpy
+streamlit
+sqlite-utils
+python-dotenv
+pandas
+tqdm
