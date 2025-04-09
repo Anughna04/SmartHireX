@@ -5,7 +5,7 @@
 **SmartHireX is a cutting-edge, AI-driven recruitment solution that simplifies the hiring process by automating resume screening, candidate shortlisting, and interview scheduling. It leverages a multi-agent architecture, LLMs (LLaMA3 via Ollama), and Streamlit for a seamless, end-to-end hiring workflow tailored for modern organizations.
 
 ## 🎥 Demo Video
-![Demo GIF](demo.gif)
+![Demo GIF](SmartHireX_demo.gif)
 
 ## 📌 Features
 - ✅ Multi-Agent System – Individual AI agents for job summarization, resume parsing, candidate scoring, shortlisting, and interview scheduling.
